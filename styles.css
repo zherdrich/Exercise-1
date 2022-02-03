@@ -2,42 +2,55 @@ div {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
-    margin-right: 140px;
-    margin-left: 140px;
-    margin-bottom: 200px;
+    width: 360px;
+    height: 275px;
     padding-top: 25px;
     padding-bottom: 100px;
-    background-color: #EAF4F9;
+    background-color: #ffffff;
     box-shadow: 5px 5px 10px 3px grey;
+    position: relative;
+    top: 200px;
+    margin: auto;
+
 }
 
 body {
     background-color: #DCEAF0;
 }
 
-#Email {
+.login {
+    width: 250px;
+    margin: auto;
+    position: relative;
+    top: 25px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-bottom: 100px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    border-bottom: 4px;
-    border-color: red;
+
 }
 
-#Password {
-    font-family: 'Times New Roman', Times, serif;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 4px;
-    border-color: red;
-}
+#Email {
+    margin-bottom: 30px;
+    }
+
+
 
 button {
     background-color: #3598DB;
     color: white;
     border: 0px;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    font-family: 'Lato', sans-serif;
 }
 
 #head {
@@ -46,5 +59,23 @@ button {
 }
 
 h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+#forgot {
+    position: relative;
+    left: 90px;
+    bottom: 5px;
+    color: #C8C4C2;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#account {
+    position: relative;
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #C8C4C2;
 }
